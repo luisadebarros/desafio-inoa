@@ -1,0 +1,14 @@
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\bin\Debug\DesafioBT.exe.config
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\bin\Debug\DesafioBT.exe
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\bin\Debug\DesafioBT.pdb
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\obj\Debug\DesafioBT.csproj.AssemblyReference.cache
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\obj\Debug\DesafioBT.csproj.CoreCompileInputs.cache
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\obj\Debug\DesafioBT.exe
+C:\Users\luisa\source\repos\DesafioBT\DesafioBT\obj\Debug\DesafioBT.pdb
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\DesafioBT.exe.config
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\DesafioBT.exe
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\DesafioBT.pdb
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.csproj.AssemblyReference.cache
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.csproj.CoreCompileInputs.cache
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.exe
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.pdb
