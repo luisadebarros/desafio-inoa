@@ -12,3 +12,15 @@ C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.csproj.As
 C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.csproj.CoreCompileInputs.cache
 C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.exe
 C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.pdb
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\DotNetEnv.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Sprache.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Sprache.xml
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.csproj.Up2Date

@@ -1,17 +1,23 @@
-﻿using System;
+﻿using DesafioBT.Model;
+using DesafioBT.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace DesafioBT.Context
 {
     public class PrincipalContext : IPrincipalContext
     {
-        public dynamic ConsultarAlphaService(string ativoIncoming)
+        public void ConsultarAlphaService(string symbol)
         {
-            var json = ConsultarAlphaService(ativoIncoming);
-            return json;
+            AlphaService service = new AlphaService();
+            var result = service.AlphaServiceClient(symbol);
+
+            AlphaServiceResponse response = new AlphaServiceResponse();
+            AlphaServiceResponse mapResult = response.MapToResponse(result);
         }
     }
 }

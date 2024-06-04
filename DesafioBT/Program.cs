@@ -14,17 +14,19 @@ namespace DesafioBT
 
         public void Run(string[] args)
         {
+            var test = Console.ReadLine();
+
             double pontoVenda = 0;
             double pontoCompra = 0;
             string ativo = "";
 
-            if (args.Length == 0)
+            if (test.ToString().Length == 0)
             {
                 Console.WriteLine("Nenhum valor fornecido, por favor tente novamente.");
                 return;
             }
 
-            string[] valoresSplit = args[0].Split(' ');
+            string[] valoresSplit = test.ToString().Split(' ');
 
             if (valoresSplit.Length != 3)
             {
@@ -34,6 +36,8 @@ namespace DesafioBT
             ativo = valoresSplit[0];
             pontoCompra = Convert.ToDouble(valoresSplit[1]);
             pontoVenda = Convert.ToDouble(valoresSplit[2]);
+
+            _context.ConsultarAlphaService(ativo);
             
         }
 

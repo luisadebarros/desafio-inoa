@@ -9,7 +9,7 @@ namespace DesafioBT.Context
 {
     public interface IPrincipalContext
     {
-        dynamic ConsultarAlphaService(string ativo);
+        void ConsultarAlphaService(string ativo);
        
     }
 }

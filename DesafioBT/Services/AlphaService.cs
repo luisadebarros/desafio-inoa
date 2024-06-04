@@ -1,23 +1,28 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
+using System.Configuration;
 using System.Net;
-using System.Web.Script.Serialization;
 
 namespace DesafioBT.Services
 {
     public class AlphaService
     {
-        private static dynamic AlphaServiceClient(string ativo)
+        public async dynamic AlphaServiceClient(string Symbol)
         {
-            string URL = $"www.alphavantage.co/query?function=SMA&symbol={ativo.ToUpper()}&interval=weekly&time_period=10&series_type=open&apikey=demo";
+
+            string URL = $"www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={Symbol}" + "&interval=1min&apikey=" + ConfigurationManager.AppSettings["AppKey"];
             Uri query = new Uri(URL);
 
-            using(WebClient client = new WebClient())
+            using (WebClient client = new WebClient())
             {
-                JavaScriptSerializer js = new JavaScriptSerializer();
-                dynamic data = js.Deserialize(client.DownloadString(query), typeof(object));
-                return data;   
+                try
+                {
+                    return client.DownloadString(query);
+                } catch (Exception err){
+                    throw new Exception(err.ToString());
+                }
+                    
             }
-
         }
 
     }
