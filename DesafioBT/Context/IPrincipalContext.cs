@@ -1,15 +1,7 @@
-﻿using DesafioBT.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesafioBT.Context
+﻿namespace DesafioBT.Context
 {
     public interface IPrincipalContext
     {
-        void ConsultarAlphaService(string ativo);
-       
+        bool ConsultarAtivo(string ativo, double valorMaior, double valorMenor);
     }
 }

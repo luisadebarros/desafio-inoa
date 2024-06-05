@@ -1,12 +1,139 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\IPrincipalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\Context\\IPrincipalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\PrincipalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\Context\\PrincipalContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Model\\AlphaServiceResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\Model\\AlphaServiceResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Services\\AlphaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\Services\\AlphaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DesafioBT\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Program.cs",
+              "RelativeDocumentMoniker": "DesafioBT\\Program.cs",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Program.cs",
+              "RelativeToolTip": "DesafioBT\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:00:47.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPrincipalContext.cs",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\IPrincipalContext.cs",
+              "RelativeDocumentMoniker": "DesafioBT\\Context\\IPrincipalContext.cs",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\IPrincipalContext.cs",
+              "RelativeToolTip": "DesafioBT\\Context\\IPrincipalContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:59:39.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrincipalContext.cs",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\PrincipalContext.cs",
+              "RelativeDocumentMoniker": "DesafioBT\\Context\\PrincipalContext.cs",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\PrincipalContext.cs",
+              "RelativeToolTip": "DesafioBT\\Context\\PrincipalContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:59:18.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlphaServiceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Model\\AlphaServiceResponse.cs",
+              "RelativeDocumentMoniker": "DesafioBT\\Model\\AlphaServiceResponse.cs",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Model\\AlphaServiceResponse.cs",
+              "RelativeToolTip": "DesafioBT\\Model\\AlphaServiceResponse.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:59:08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\App.config",
+              "RelativeDocumentMoniker": "DesafioBT\\App.config",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\App.config",
+              "RelativeToolTip": "DesafioBT\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-04T22:57:08.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\appsettings.json",
+              "RelativeDocumentMoniker": "DesafioBT\\appsettings.json",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\appsettings.json",
+              "RelativeToolTip": "DesafioBT\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T22:57:06.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlphaService.cs",
+              "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Services\\AlphaService.cs",
+              "RelativeDocumentMoniker": "DesafioBT\\Services\\AlphaService.cs",
+              "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Services\\AlphaService.cs",
+              "RelativeToolTip": "DesafioBT\\Services\\AlphaService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:56:38.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

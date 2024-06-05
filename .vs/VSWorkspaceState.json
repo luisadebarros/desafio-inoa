@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DesafioBT",
+    "\\DesafioBT\\Services"
   ],
-  "SelectedNode": "\\DesafioBT.sln",
+  "SelectedNode": "\\DesafioBT\\Services\\AlphaService.cs",
   "PreviewInSolutionExplorer": false
 }

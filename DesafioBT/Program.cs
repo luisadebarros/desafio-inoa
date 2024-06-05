@@ -1,5 +1,6 @@
 ﻿using DesafioBT.Context;
 using System;
+using System.Threading.Tasks;
 
 namespace DesafioBT
 {
@@ -12,7 +13,7 @@ namespace DesafioBT
             _context = context;
         }
 
-        public void Run(string[] args)
+        public async Task Run(string[] args)
         {
             var test = Console.ReadLine();
 
@@ -36,18 +37,30 @@ namespace DesafioBT
             ativo = valoresSplit[0];
             pontoCompra = Convert.ToDouble(valoresSplit[1]);
             pontoVenda = Convert.ToDouble(valoresSplit[2]);
+            while (true)
+            {
+                var response =  _context.ConsultarAtivo(ativo, pontoCompra, pontoVenda);
 
-            _context.ConsultarAlphaService(ativo);
-            
+                if (response)
+                {
+                    Console.WriteLine("Monitoramento com sucesso!");
+                }
+                else
+                {
+                    Console.WriteLine("Nenhum email enviado!");
+                }
+
+                await Task.Delay(TimeSpan.FromMinutes(1));
+            }
         }
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             var context = new PrincipalContext();
 
             var program = new Program(context);
 
-            program.Run(args);
+            await program.Run(args);
         }
     }
 }

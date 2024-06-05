@@ -196,6 +196,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AlphaService.cs" />
+    <Compile Include="Services\SMTPService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
