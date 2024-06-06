@@ -25,6 +25,7 @@
 
 
 
+
 * A API de cotação utiliza foi a [AlphaVantage](https://www.alphavantage.co/documentation/), no qual permite somente 25 consultas gratuitas ao dia.
 
   
@@ -53,7 +54,7 @@
   - O preço de referência para compra
 
    
-* Ex.
+* Ex:
 
 ``` stock-quote-alert.exe PETR4 22.67 22.59 ```
 
