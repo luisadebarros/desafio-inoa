@@ -5,22 +5,26 @@ namespace DesafioBT.Context
 {
     public class PrincipalContext : IPrincipalContext
     {
-        public bool ConsultarAtivo(string ativo, double valorMaior, double valorMenor)
+        public bool ConsultarAtivo(string ativo, double valorCompra, double valorVenda)
         {
             AlphaServiceResponse response = ConsultarAlphaService(ativo);
             SMTPService smtpService = new SMTPService();
-           
-            if(double.Parse(response.High) >= valorMaior)
+            bool res = false;
+
+            if (double.Parse(response.Close) <= valorCompra)
             {
-                return smtpService.SendEmail(true);
+                smtpService.SendEmail(false, response);
+                res = true;
+
             }
 
-            if (double.Parse(response.Low) <= valorMenor)
+            if (double.Parse(response.Close) >= valorVenda)
             {
-                return smtpService.SendEmail(false);
+                smtpService.SendEmail(true, response);
+                res = true;
             }
 
-            return false;
+            return res;
         }
 
         private AlphaServiceResponse ConsultarAlphaService(string symbol)
@@ -29,7 +33,7 @@ namespace DesafioBT.Context
             var result = service.AlphaServiceClient(symbol);
 
             AlphaServiceResponse response = new AlphaServiceResponse();
-            return response.MapToResponse(result);
+            return response.MapToResponse(result, symbol);
 
         }
 

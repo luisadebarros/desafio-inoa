@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\DesafioBT",
+    "\\DesafioBT\\Context",
+    "\\DesafioBT\\Model",
     "\\DesafioBT\\Services"
   ],
-  "SelectedNode": "\\DesafioBT\\Services\\AlphaService.cs",
+  "SelectedNode": "\\DesafioBT\\Model\\AlphaServiceResponse.cs",
   "PreviewInSolutionExplorer": false
 }

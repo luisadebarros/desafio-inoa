@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -9,7 +10,8 @@ using System.Threading.Tasks;
 namespace DesafioBT.Model
 {
      public class AlphaServiceResponse
-    {
+     {
+        public String Ativo { get; set; }
         public String Open {  get; set; }
         public String High {  get; set; }
         public String Low { get; set; }
@@ -17,19 +19,31 @@ namespace DesafioBT.Model
         public String Volume { get; set; }
         public String Date {  get; set; }
 
-        public AlphaServiceResponse MapToResponse(dynamic ResponseAlphaService)
+        public AlphaServiceResponse MapToResponse(dynamic ResponseAlphaService, String ativo)
         {
             AlphaServiceResponse response =  new AlphaServiceResponse();
 
-            var Response = ResponseAlphaService["Time Series (1min)"];
+            var timeSeries = ResponseAlphaService["Time Series (1min)"];
+            if(timeSeries == null)
+            {
+                Console.WriteLine("Não existem dados referentes a esse ativo, tente novamente!");
+                Environment.Exit(0);
 
-            response.Date = Response[0];
-            response.Open = Response[0]["1. open"];
-            response.High = Response[0]["2. high"];
-            response.Low = Response[0]["3. low"];
-            response.Close = Response[0]["4. close"];
-            response.Volume = Response[0]["5. volume"];
+            } else
+            {
+                JObject responseService = JObject.Parse(timeSeries.ToString());
+                var firstEntry = responseService.Properties().First();
+                var data = firstEntry.Value;
+                response.Date = firstEntry.Path.Replace("[", "").Replace("]", "");
 
+                response.Ativo = ativo;
+                response.Open = Convert.ToString(data["1. open"]).Replace(".", ",");
+                response.High = Convert.ToString(data["2. high"]).Replace(".", ",");
+                response.Low = Convert.ToString(data["3. low"]).Replace(".", ",");
+                response.Close = Convert.ToString(data["4. close"]).Replace(".", ",");
+                response.Volume = Convert.ToString(data["5. volume"]).Replace(".", ",");
+            }
+            
             return response;
 
         }

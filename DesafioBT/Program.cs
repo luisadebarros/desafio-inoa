@@ -24,14 +24,15 @@ namespace DesafioBT
             if (test.ToString().Length == 0)
             {
                 Console.WriteLine("Nenhum valor fornecido, por favor tente novamente.");
-                return;
+                Environment.Exit(0);
             }
 
             string[] valoresSplit = test.ToString().Split(' ');
 
             if (valoresSplit.Length != 3)
             {
-                throw new Exception("Foram inseridos mais ou menos argumentos do que o necessário, por favor tente novamente.");
+                Console.WriteLine("Foram inseridos mais ou menos argumentos do que o necessário, por favor tente novamente.");
+                Environment.Exit(0);
             }
 
             ativo = valoresSplit[0];

@@ -24,3 +24,5 @@ C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Microsoft.Extension
 C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Sprache.xml
 C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\obj\Debug\DesafioBT.csproj.Up2Date
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Newtonsoft.Json.dll
+C:\Users\luisa\Source\Repos\desafio-inoa\DesafioBT\bin\Debug\Newtonsoft.Json.xml
