@@ -9,13 +9,13 @@
 * A solução foi desenvolvida em .Net Core + C#.
 
 
-* Para a execução do projeto, basta baixa-lo, e utilizando o CMD (Comand Propmt Direct), ir ao diretório onde se encontra o projeto e utilizar os seguintes comandos:
+* Para a execução do projeto, basta baixa-lo, e utilizando o CMD (Prompt de Comando), ir ao diretório onde se encontra o projeto e utilizar os seguintes comandos:
 
 
  ``` cd DesafioBT\bin\Debug```
 
  
-``` DesafioBT.exe {nome do ativo em letras maísuculas} {ponto de venda} {ponto de compra}```
+``` DesafioBT.exe {nome do ativo em letras maiúsculas} {ponto de venda} {ponto de compra}```
 
 
 * Exemplo: 
