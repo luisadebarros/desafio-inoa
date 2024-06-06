@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\desafiobt\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|solutionrelative:desafiobt\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\desafiobt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|solutionrelative:desafiobt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\desafiobt\\context\\principalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|solutionrelative:desafiobt\\context\\principalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|c:\\users\\luisa\\source\\repos\\desafio-inoa\\desafiobt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|solutionrelative:desafiobt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|C:\\Users\\luisa\\source\\repos\\desafio-inoa\\desafiobt\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|solutionrelative:desafiobt\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|c:\\users\\luisa\\source\\repos\\desafio-inoa\\desafiobt\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001541B3-D42C-4F86-882C-0BA071D62FBB}|DesafioBT\\DesafioBT.csproj|solutionrelative:desafiobt\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,40 +40,40 @@
               "RelativeDocumentMoniker": "DesafioBT\\Context\\PrincipalContext.cs",
               "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Context\\PrincipalContext.cs",
               "RelativeToolTip": "DesafioBT\\Context\\PrincipalContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAMAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T23:03:49.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Program.cs",
               "RelativeDocumentMoniker": "DesafioBT\\Program.cs",
               "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Program.cs",
               "RelativeToolTip": "DesafioBT\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBwAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCcAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T00:10:45.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SMTPService.cs",
               "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Services\\SMTPService.cs",
               "RelativeDocumentMoniker": "DesafioBT\\Services\\SMTPService.cs",
               "ToolTip": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\Services\\SMTPService.cs",
               "RelativeToolTip": "DesafioBT\\Services\\SMTPService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAewCUAAAA7AAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAYwCUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T23:05:33.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\luisa\\source\\repos\\desafio-inoa\\DesafioBT\\App.config",
               "RelativeDocumentMoniker": "DesafioBT\\App.config",
