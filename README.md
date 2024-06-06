@@ -75,6 +75,7 @@
 
 * Em outras palavras, dada a cotação de PETR4 abaixo.
 
+![Cotação - Imagem](image.png)
 
 - Toda vez que o preço for maior que linha-azul, um e-mail deve ser disparado aconselhando a venda.
 
