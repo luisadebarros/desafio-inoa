@@ -24,7 +24,7 @@
 
 
 
-* A API de cotação utiliza foi a [AlphaVantage](https://www.alphavantage.co/documentation/){:target="_blank"}, no qual permite somente 25 consultas gratuitas ao dia.
+* A API de cotação utiliza foi a [AlphaVantage](https://www.alphavantage.co/documentation/), no qual permite somente 25 consultas gratuitas ao dia.
 
   
 * Segue alguns ativos que são suportados pela Alpha Vantagem e essa aplicação:
@@ -47,10 +47,9 @@
 
 
 * Ele deve ser chamado via linha de comando com 3 parâmetros.
-
- - O ativo a ser monitorado
- - O preço de referência para venda
- - O preço de referência para compra
+  - O ativo a ser monitorado
+  - O preço de referência para venda
+  - O preço de referência para compra
 
    
 * Ex.
@@ -60,11 +59,8 @@
 
    
 * Ele deve ler de um arquivo de configuração com:
-
-
-
- - O e-mail de destino dos alertas
- - As configurações de acesso ao servidor de SMTP que irá enviar o e-mail
+  - O e-mail de destino dos alertas
+  - As configurações de acesso ao servidor de SMTP que irá enviar o e-mail
 
 
 
