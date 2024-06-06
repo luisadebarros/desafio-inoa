@@ -77,6 +77,5 @@
 
 ![Cotação - Imagem](image.png)
 
-- Toda vez que o preço for maior que linha-azul, um e-mail deve ser disparado aconselhando a venda.
-
-- Toda vez que o preço for menor que linha-vermelha, um e-mail deve ser disparado aconselhando a compra.
+  - Toda vez que o preço for maior que linha-azul, um e-mail deve ser disparado aconselhando a venda.
+  - Toda vez que o preço for menor que linha-vermelha, um e-mail deve ser disparado aconselhando a compra.
