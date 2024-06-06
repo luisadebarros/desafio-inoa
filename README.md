@@ -18,9 +18,10 @@
 ``` DesafioBT.exe {nome do ativo em letras maísuculas} {ponto de venda} {ponto de compra}```
 
 
-*Exemplo: 
+* Exemplo: 
 
 ``` DesafioBT.exe IBM 160 140```
+
 
 
 
@@ -55,6 +56,7 @@
 * Ex.
 
 ``` stock-quote-alert.exe PETR4 22.67 22.59 ```
+
 
 
    
